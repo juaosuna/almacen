@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="venta de ropa para toda clase">
+    <meta name="keywords" content="almacen juanes,tienda virtual,tienda de ropa,online store">
+    <meta name="author" content="Juan David Osuna">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <title>almacen Juanes</title>
+</head>
+<body>
+    <header class="contenedor">
+        
+        <div class="marca">
+            <h1 class="resultado">almacen Juanes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li class=""><a href="index.html">Inicio</a></li>
+                <li class=""><a href="quienessomos.html">Quienes somos</a></li>
+                <li class=""><a href="productos.html">productos</a></li>
+                <li class="actual"><a href="contactenos.html">Contáctanos</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="cabecera">
+        <div class="contenedor">
+            <h1>ENCONTRAMOS LAS MEJORES PRENDAS DE MODA EN ALMACEN JUANES </h1>
+        </div>
+    </section>
+    <section id="cajas">
+        <div class="contenedor">
+            <div class="caja">
+                <img src="{% static 'img/conjuto_de_ropa_interior.png' %}" alt="conjunto de ropa interios para la dama">
+                <h3>ropa interior</h3>
+                <p>ropa comoda para la mujer</p>
+            </div>
+            <div class="caja">
+                <img src="{% static 'img/chaqueta_negra.png' %}" alt="chaqueta negra para el caballero">
+                <h3>Chaqueta negra</h3>
+                <p>chaqueta coda para el hombre para verse mas atractivo</p>
+            </div>
+            <div class="caja">
+                <img src="{% static 'img/jeans_blanco.png' %}" alt="Jeans blanco para el caballero">
+                <h3>Jeans blanco</h3>
+                <p>ropa comoda para caballero de jeans blancos de cualquier talla</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>almacen Juanes, copyright &copy; 2022</p>
+    </footer>
+</body>
+</html>
